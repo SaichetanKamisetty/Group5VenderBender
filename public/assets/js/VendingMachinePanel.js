@@ -26,33 +26,35 @@ function itemSelect(key, parsedJSON) {
     }
 }
 
-fetch('/stockData') 
-    .then(response=> response.json())
-    .then(jsonData => {
-        let container = document.getElementById("itemTable");
-        const parsedJSON = JSON.parse(jsonData)
-        for(let key in parsedJSON.StockData) {
-            if (parsedJSON.StockData.hasOwnProperty(key)) {
-                let stockData = parsedJSON.StockData[key];
+fetch('/stockData')
+  .then(response => response.json())
+  .then(jsonData => {
+      let container = document.getElementById("itemTable");
+      const parsedJSON = JSON.parse(jsonData);
+      for (let key in parsedJSON.StockData) {
+          if (parsedJSON.StockData.hasOwnProperty(key)) {
+              let stockData = parsedJSON.StockData[key];
 
-                let button = document.createElement("button");
-                button.style.margin = "25px";
-                button.style.height = "200px";
-                button.style.width = "200px";
-                button.style.borderRadius = "20px";
-                button
-                button.innerHTML = "Name: " + stockData.itemName + "<br>" + "Price: $" + stockData.price + "<br>" +"Stock: " + stockData.totalAmount;
+              // Create a new div element for the item button with the 'item-button' class
+              let itemButton = document.createElement("div");
+              itemButton.className = "item-button";
+              itemButton.innerHTML = `
+                  <div class="item-name">${stockData.itemName}</div>
+                  <div class="item-price">Price: $${stockData.price}</div>
+                  <div class="item-stock">Stock: ${stockData.totalAmount}</div>
+              `;
 
-                button.addEventListener('click', function() {
-                    itemSelect(key, parsedJSON);
-                })
+              // Add an event listener to handle item selection
+              itemButton.addEventListener('click', function() {
+                  itemSelect(key, parsedJSON);
+              });
 
-                container.appendChild(button)
-            }
-        }
-    })
-    .catch(error=>console.error(error));
-
+              // Append the new item button to the container
+              container.appendChild(itemButton);
+          }
+      }
+  })
+  .catch(error => console.error(error));
 
 
 

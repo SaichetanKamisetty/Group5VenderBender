@@ -2,7 +2,7 @@
     "StockData": {
         "1": {
             "itemName": "Lays Chips",
-            "totalAmount": 5,
+            "totalAmount": 4,
             "price": 1.5,
             "itemsList": [
                 {
@@ -17,24 +17,19 @@
                 },
                 {
                     "itemName": "Lays Chips",
-                    "timeStocked": "2023-11-17",
-                    "expireDate": "2023-11-22"
+                    "timeStocked": "2023-11-16",
+                    "expireDate": "2023-11-02"
                 },
                 {
                     "itemName": "Lays Chips",
-                    "timeStocked": "2023-11-17",
-                    "expireDate": "2023-11-22"
-                },
-                {
-                    "itemName": "Lays Chips",
-                    "timeStocked": "2023-11-17",
-                    "expireDate": "2023-11-22"
+                    "timeStocked": "2023-11-16",
+                    "expireDate": "2023-11-20"
                 }
             ]
         },
         "2": {
             "itemName": "Crush Soda",
-            "totalAmount": 3,
+            "totalAmount": 5,
             "price": 2,
             "itemsList": [
                 {
@@ -44,13 +39,23 @@
                 },
                 {
                     "itemName": "Crush Soda",
-                    "timeStocked": "2023-11-17",
-                    "expireDate": "2023-11-22"
+                    "timeStocked": "2023-11-16",
+                    "expireDate": "2023-11-20"
                 },
                 {
                     "itemName": "Crush Soda",
-                    "timeStocked": "2023-11-17",
-                    "expireDate": "2023-11-22"
+                    "timeStocked": "2023-11-16",
+                    "expireDate": "2023-11-20"
+                },
+                {
+                    "itemName": "Crush Soda",
+                    "timeStocked": "2023-11-16",
+                    "expireDate": "2023-11-20"
+                },
+                {
+                    "itemName": "Crush Soda",
+                    "timeStocked": "2023-11-16",
+                    "expireDate": "2023-11-20"
                 }
             ]
         },
@@ -71,18 +76,18 @@
                 },
                 {
                     "itemName": "Coca Cola",
-                    "timeStocked": "2023-11-17",
-                    "expireDate": "2023-11-22"
+                    "timeStocked": "2023-11-16",
+                    "expireDate": "2023-11-05"
                 },
                 {
                     "itemName": "Coca Cola",
-                    "timeStocked": "2023-11-17",
-                    "expireDate": "2023-11-22"
+                    "timeStocked": "2023-11-16",
+                    "expireDate": "2023-11-20"
                 },
                 {
                     "itemName": "Coca Cola",
-                    "timeStocked": "2023-11-17",
-                    "expireDate": "2023-11-22"
+                    "timeStocked": "2023-11-16",
+                    "expireDate": "2023-11-20"
                 }
             ]
         },
@@ -113,8 +118,8 @@
                 },
                 {
                     "itemName": "Brownies",
-                    "timeStocked": "2023-11-17",
-                    "expireDate": "2023-11-22"
+                    "timeStocked": "2023-11-16",
+                    "expireDate": "2023-11-20"
                 }
             ]
         },
@@ -140,13 +145,13 @@
                 },
                 {
                     "itemName": "Twinkie",
-                    "timeStocked": "2023-11-17",
-                    "expireDate": "2023-11-22"
+                    "timeStocked": "2023-11-16",
+                    "expireDate": "2023-11-20"
                 },
                 {
                     "itemName": "Twinkie",
-                    "timeStocked": "2023-11-17",
-                    "expireDate": "2023-11-22"
+                    "timeStocked": "2023-11-16",
+                    "expireDate": "2023-11-07"
                 }
             ]
         },
@@ -157,28 +162,28 @@
             "itemsList": [
                 {
                     "itemName": "DrPepper",
-                    "timeStocked": "2023-11-17",
-                    "expireDate": "2023-11-22"
+                    "timeStocked": "2023-11-16",
+                    "expireDate": "2023-11-20"
                 },
                 {
                     "itemName": "DrPepper",
-                    "timeStocked": "2023-11-17",
-                    "expireDate": "2023-11-22"
+                    "timeStocked": "2023-11-16",
+                    "expireDate": "2023-11-20"
                 },
                 {
                     "itemName": "DrPepper",
-                    "timeStocked": "2023-11-17",
-                    "expireDate": "2023-11-22"
+                    "timeStocked": "2023-11-16",
+                    "expireDate": "2023-11-20"
                 },
                 {
                     "itemName": "DrPepper",
-                    "timeStocked": "2023-11-17",
-                    "expireDate": "2023-11-22"
+                    "timeStocked": "2023-11-16",
+                    "expireDate": "2023-11-20"
                 },
                 {
                     "itemName": "DrPepper",
-                    "timeStocked": "2023-11-17",
-                    "expireDate": "2023-11-22"
+                    "timeStocked": "2023-11-16",
+                    "expireDate": "2023-11-20"
                 }
             ]
         },
@@ -199,18 +204,18 @@
                 },
                 {
                     "itemName": "Vanilla Coke",
-                    "timeStocked": "2023-11-17",
-                    "expireDate": "2023-11-22"
+                    "timeStocked": "2023-11-16",
+                    "expireDate": "2023-11-20"
                 },
                 {
                     "itemName": "Vanilla Coke",
-                    "timeStocked": "2023-11-17",
-                    "expireDate": "2023-11-22"
+                    "timeStocked": "2023-11-16",
+                    "expireDate": "2023-11-20"
                 },
                 {
                     "itemName": "Vanilla Coke",
-                    "timeStocked": "2023-11-17",
-                    "expireDate": "2023-11-22"
+                    "timeStocked": "2023-11-16",
+                    "expireDate": "2023-11-20"
                 }
             ]
         },
@@ -241,42 +246,16 @@
                 },
                 {
                     "itemName": "Fanta",
-                    "timeStocked": "2023-11-17",
-                    "expireDate": "2023-11-22"
+                    "timeStocked": "2023-11-16",
+                    "expireDate": "2023-11-20"
                 }
             ]
         },
         "9": {
             "itemName": "Cheetoes",
-            "totalAmount": 5,
+            "totalAmount": 0,
             "price": 5,
-            "itemsList": [
-                {
-                    "itemName": "Cheetoes",
-                    "timeStocked": "2023-11-16",
-                    "expireDate": "2023-11-20"
-                },
-                {
-                    "itemName": "Cheetoes",
-                    "timeStocked": "2023-11-16",
-                    "expireDate": "2023-11-20"
-                },
-                {
-                    "itemName": "Cheetoes",
-                    "timeStocked": "2023-11-16",
-                    "expireDate": "2023-11-20"
-                },
-                {
-                    "itemName": "Cheetoes",
-                    "timeStocked": "2023-11-17",
-                    "expireDate": "2023-11-22"
-                },
-                {
-                    "itemName": "Cheetoes",
-                    "timeStocked": "2023-11-17",
-                    "expireDate": "2023-11-22"
-                }
-            ]
+            "itemsList": []
         }
     }
 }

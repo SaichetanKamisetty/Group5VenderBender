@@ -100,6 +100,7 @@
             "itemName": "Cheetoes",
             "totalAmount": 5,
             "price": 5,
+            "image": "https://m.media-amazon.com/images/I/71EZpFlcqHL.jpg",
             "itemsList": [
                 {"itemName": "Cheetoes", "timeStocked": "2023-11-16", "expireDate": "2023-11-20"},
                 {"itemName": "Cheetoes", "timeStocked": "2023-11-16", "expireDate": "2023-11-20"},
