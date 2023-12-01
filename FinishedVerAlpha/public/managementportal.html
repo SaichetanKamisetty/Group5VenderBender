@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="assets/js/Management.js"></script>
+    <title>Management Dashboard</title>
+    <script src="https://cdn.anychart.com/js/8.0.1/anychart-core.min.js"></script>
+    <script src="https://cdn.anychart.com/js/8.0.1/anychart-pie.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/managerportalstyle.css">
+  </head>
+  <body>
+    <!-- Top Bar with Dropdown and Button -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand">Management Dashboard</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Dropdown </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown" , id="dropdown">
+                <!-- <a class="dropdown-item">Option 1</a><a class="dropdown-item">Option 2</a> -->
+              </div>
+            </li>
+          </ul>
+          <button class="btn btn-primary" onclick="redirect()">Check Restock Reports</button>
+        </div>
+      </div>
+    </nav>
+    <!-- Center Boxes -->
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-4">
+          <h4>Most Popular Item</h4>
+          <div class="box" id="popular"></div>
+        </div>
+        <div class="col-md-4">
+          <h4>Least Popular Item</h4>
+          <div class="box" id="unpopular">
+            <!-- Content goes here -->
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h4>Gross Income Made</h4>
+          <div class="box" id="gross">
+            <!-- Content goes here -->
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+          <h4>Pie Chart</h4>
+          <div class="box" id="pie"></div>
+        </div>
+      </div>
+    </div>
+    <script>
+      function redirect() {
+          window.location.href = "/restockreports";
+      }
+   </script>
+    <div class="container item-list">
+      <h4>Item List</h4>
+      <ul style="list-style-type: none; padding: 0; overflow: auto; max-height: 200px;" id="item-list"></ul>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

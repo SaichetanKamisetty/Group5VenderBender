@@ -1,0 +1,72 @@
+{
+    "StockData": {
+        "1": {
+            "itemName": "Lays Chips",
+            "totalAmount": 5,
+            "price": 1.5,
+            "itemsList": [
+                {
+                    "itemName": "Lays Chips",
+                    "timeStocked": "2023-12-01",
+                    "expireDate": "2023-12-06",
+                    "uuid": "a508b940-7ec1-4056-aa71-dd6fa7e692ff"
+                },
+                {
+                    "itemName": "Lays Chips",
+                    "timeStocked": "2023-12-01",
+                    "expireDate": "2023-12-06",
+                    "uuid": "1ed43acf-56f4-408e-bf13-f0a3b1b63573"
+                },
+                {
+                    "itemName": "Lays Chips",
+                    "timeStocked": "2023-12-01",
+                    "expireDate": "2023-12-06",
+                    "uuid": "aa9f3eb7-7ae7-4d01-8765-4bf7d8a9a9e9"
+                },
+                {
+                    "itemName": "Lays Chips",
+                    "timeStocked": "2023-12-01",
+                    "expireDate": "2023-12-06",
+                    "uuid": "ba385de1-b89e-4d18-931d-2251a0d07409"
+                },
+                {
+                    "itemName": "Lays Chips",
+                    "timeStocked": "2023-12-01",
+                    "expireDate": "2023-12-06",
+                    "uuid": "b0a7da80-de54-45f8-be13-edf5e6fdbd37"
+                }
+            ]
+        },
+        "10": {
+            "itemName": "Taffy",
+            "totalAmount": 4,
+            "price": 3.2,
+            "itemsList": [
+                {
+                    "itemName": "Taffy",
+                    "timeStocked": "2023-12-01",
+                    "expireDate": "2023-12-06",
+                    "uuid": "6a655b4d-1c79-414f-9670-265be534831f"
+                },
+                {
+                    "itemName": "Taffy",
+                    "timeStocked": "2023-12-01",
+                    "expireDate": "2023-12-06",
+                    "uuid": "b8515362-f812-4ad1-b606-7c5ace068871"
+                },
+                {
+                    "itemName": "Taffy",
+                    "timeStocked": "2023-12-01",
+                    "expireDate": "2023-12-06",
+                    "uuid": "6d51c9f6-a5ea-43a4-943a-703c06fab2ff"
+                },
+                {
+                    "itemName": "Taffy",
+                    "timeStocked": "2023-12-01",
+                    "expireDate": "2023-12-06",
+                    "uuid": "3c593c94-4b3e-4cf6-966b-bf1e1714b14f"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "VendingMachine1": {
+        "totalItems": [
+            {
+                "id": 1,
+                "itemName": "Lays Chips",
+                "price": 1.5,
+                "amount": 0
+            },
+            {
+                "id": 2,
+                "itemName": "Crush Soda",
+                "price": 2,
+                "amount": 0
+            },
+            {
+                "id": 3,
+                "itemName": "Coca Cola",
+                "price": 3,
+                "amount": 0
+            },
+            {
+                "id": 4,
+                "itemName": "Brownies",
+                "price": 3,
+                "amount": 0
+            },
+            {
+                "id": 5,
+                "itemName": "Twinkie",
+                "price": 2.5,
+                "amount": 0
+            },
+            {
+                "id": 6,
+                "itemName": "DrPepper",
+                "price": 2,
+                "amount": 0
+            },
+            {
+                "id": 7,
+                "itemName": "Vanilla Coke",
+                "price": 2,
+                "amount": 0
+            },
+            {
+                "id": 8,
+                "itemName": "Fanta",
+                "price": 2,
+                "amount": 0
+            },
+            {
+                "id": 9,
+                "itemName": "Cheetoes",
+                "price": 5,
+                "amount": 0
+            }
+        ],
+        "purchaselogs": [
+            {
+                "None": "None"
+            }
+        ]
+    }
+}
