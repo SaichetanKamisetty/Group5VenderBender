@@ -46,7 +46,7 @@ git clone https://github.com/your-username/VendingMachineProject.git
 ```
 2. Install backend dependancies.
 ```bash
-npm install express firebase-admin node-cron
+npm install express firebase-admin node-cron body-parser
 ```
 3. Start application
 ```bash
