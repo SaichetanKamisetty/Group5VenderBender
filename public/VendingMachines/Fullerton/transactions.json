@@ -1,0 +1,29 @@
+{
+    "Fullerton": {
+        "totalItems": [
+            {
+                "id": 1,
+                "itemName": "Lays Chips",
+                "price": 1.5,
+                "amount": 0
+            },
+            {
+                "id": 10,
+                "itemName": "Taffy",
+                "price": 3.5,
+                "amount": 0
+            },
+            {
+                "id": 11,
+                "itemName": "Tarts",
+                "price": 1,
+                "amount": 0
+            }
+        ],
+        "purchaselogs": [
+            {
+                "None": "None"
+            }
+        ]
+    }
+}
